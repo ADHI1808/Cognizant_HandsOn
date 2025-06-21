@@ -19,4 +19,19 @@ class FinancialForecastingWithInput
             return presentValue;
         return (1 + growthRate) * CalculateFutureValue(presentValue, growthRate, years - 1);
     }
+/*
+    static double CalculateFutureValueIterative(double presentValue, double growthRate, int years)
+    {
+          double result = presentValue;
+          for (int i = 0; i < years; i++)
+               result *= (1 + growthRate);
+          return result;
+    }
+*/
+/* 
+    static double CalculateFutureValueOptimal(double presentValue, double growthRate, int years)
+    {
+        return presentValue * Math.Pow(1 + growthRate, years);
+    }
+*/
 }
