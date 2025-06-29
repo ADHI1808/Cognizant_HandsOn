@@ -54,7 +54,7 @@ namespace CalcLibrary
     }
 }
 
-//step 4- type "dotnet test" in terminal
+//step 4- type "dotnet test" in terminal for output
 
 
 
