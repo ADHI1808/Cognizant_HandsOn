@@ -1,5 +1,4 @@
-use manditory;
-
+--step1:create tables
 CREATE TABLE Categories (
     CategoryID INT PRIMARY KEY,
     CategoryName VARCHAR(100)
@@ -13,6 +12,7 @@ CREATE TABLE Products (
     FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
 );
 
+--step2: insert values
 INSERT INTO Categories (CategoryID, CategoryName) VALUES
 (1, 'Electronics'),
 (2, 'Books'),
@@ -31,7 +31,7 @@ INSERT INTO Products (ProductID, ProductName, Price, CategoryID) VALUES
 (10, 'Sneakers', 40.00, 3),
 (11, 'Cap', 15.00, 3);
 
-
+--step3: ranking query
 SELECT
     c.CategoryName,
     p.ProductName,
