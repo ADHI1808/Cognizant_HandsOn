@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 namespace MyFirstAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("Emp")]
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;
