@@ -10,7 +10,7 @@ using System.Linq;
 namespace MyFirstAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("Emp")]
     [ServiceFilter(typeof(CustomAuthFilter))] // Applies CustomAuthFilter to all actions in this controller
     public class EmployeeController : ControllerBase
     {
