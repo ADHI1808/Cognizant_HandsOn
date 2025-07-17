@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "JWTAuth.Controllers.AuthController",
+    "Method": "GetUserData",
+    "RelativePath": "api/Auth/data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuth.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInput",
+        "Type": "JWTAuth.models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuth.Controllers.AuthController",
+    "Method": "SecretEndpoint",
+    "RelativePath": "api/Auth/secret",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
