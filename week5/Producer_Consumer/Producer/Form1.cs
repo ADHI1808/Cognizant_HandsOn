@@ -10,7 +10,7 @@ namespace Producer
         private IProducer<Null, string> _producer;
 
         private const string KafkaBootstrapServers = "localhost:9092";
-        private const string KafkaTopic = "your-topic-name";
+        private const string KafkaTopic = "ChatApp";
 
         public Form1()
         {
