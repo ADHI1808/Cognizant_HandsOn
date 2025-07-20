@@ -11,7 +11,7 @@ namespace Consumer
         private IConsumer<Ignore, string> _consumer;
 
         private const string KafkaBootstrapServers = "localhost:9092";
-        private const string KafkaTopic = "your-topic-name";
+        private const string KafkaTopic = "ChatApp";
         private const string KafkaConsumerGroupId = "my_consumer_group";
 
         public Form1()
